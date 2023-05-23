@@ -6,8 +6,7 @@ import { HttpClient } from '@angular/common/http';
   template: '',
 })
 export class ApiComponent implements OnInit {
-  constructor(private http: HttpClient) {}
-
+  
   ngOnInit() {
     this.fetchData();
   }
